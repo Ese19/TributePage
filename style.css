@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    color: white;
+}
+
+.container {
+    height: 100%;
+    background: url('images/maradona.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container span {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.goodbye {
+    font-size:  1.5rem;
+    font-weight: 100;
+    top: 65%;
+}
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+    top: 70%;
+}
+
+.year {
+    font-size: 1.5rem;
+    font-weight: 100;
+    top: 77%;
+}
+
+@media only screen and (min-width: 768px) {
+    .goodbye {
+        font-size: 3rem;
+        font-weight: 100;
+        top: 45%;
+        right: 15%;
+    }
+    .name {
+        font-size: 4rem;
+        font-weight: bold;
+        top: 55%;
+        right: 5%; 
+    }
+
+    .year {
+        font-size: 3rem;
+        font-weight: 100;
+        top: 70%;
+        right: 12%;
+    }
+}
